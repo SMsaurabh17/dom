@@ -1,4 +1,9 @@
 .<h1>
-. is used for html file
+. is used class 
+
+
+<li id = 'one' class="two" name="nm">kiwi</li>
+
+
 
 # is used id 
