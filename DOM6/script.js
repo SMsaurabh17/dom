@@ -35,11 +35,11 @@ h2.addEventListener('click',function(){
 
 // program 2
 
-let h2 =document.querySelector('h2[name="n"]')
-h2.addEventListener('click',function(){
-    h2.textContent = 'shyam'
-    h2.style.color = "blue";
+// let h2 =document.querySelector('h2[name="n"]')
+// h2.addEventListener('click',function(){
+//     h2.textContent = 'shyam'
+//     h2.style.color = "blue";
 
-})
+// })
 
 
