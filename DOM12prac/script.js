@@ -45,20 +45,20 @@ o.addEventListener('click',function(e){
             o.removeChild(LE)
             
         }
-        else if(e.target.tagName === 'Up'){
+        else if(e.target.className === 'Up'){
             let LE = e.target.parentElement
             let PE = LE.parentElement
             let prevE = LE.previousElementSibling
             if(prevE){
-                o.insertBefore(prevE,LE)
+                o.insertBefore(LE,prevE)
             }
         }
-        else if(e.target.tagName === 'Down'){
+        else if(e.target.className === 'Down'){
             let LE = e.target.parentElement
             let PE = LE.parentElement
             let nexE = LE.nextElementSibling
             if(nexE){
-                o.insertBefore(LE,nexE)
+                o.insertBefore(nexE,LE)
             }
         }
     }
