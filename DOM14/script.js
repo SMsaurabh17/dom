@@ -27,7 +27,7 @@ console.log(Element)
 let d1 = Element.getAttribute('id')
 console.log(d1)
 
-let d2 = Element.setAttribute('id','nine')
+Element.setAttribute('id','nine')
 console.log(Element)
 
 // Element.removeAttribute('id')

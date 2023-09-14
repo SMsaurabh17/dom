@@ -1,8 +1,11 @@
-// let q = document.querySelector('#one')
+
+// DIFFERENT WAYS TO SELECT AN ELEMENT USING [querySelector ,querySelectorAll ,getElementById]
+
+let q = document.querySelector('#one')
 // let w = document.querySelector('.frontend')
 // let e = document.querySelector('.backend')
 
-// console.log(q)
+console.log(q)
 // console.log(w)
 // console.log(e)
 
@@ -21,12 +24,12 @@ console.log(y)
 
 // ---------------
 
-// q.addEventListener('click',function(){
-//     for(let i = 0 ; i < t.length ; i++){
-//         t[i].style.color = 'red'
-//         y[i].style.color = 'yellow'
-//     }
-// })
+q.addEventListener('click',function(){
+    for(let i = 0 ; i < t.length ; i++){
+        t[i].style.color = 'red'
+        y[i].style.color = 'yellow'
+    }
+})
 
 
 

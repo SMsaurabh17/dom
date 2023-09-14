@@ -114,10 +114,10 @@ o.addEventListener('click',function(e){
 // console.log(d)
 
 
-let q = {
-    name:'saurabh',
-    surname : 'mahajan'
-}
-for(let k in q){
-    console.log(k[q])
-}
+// let q = {
+//     name:'saurabh',
+//     surname : 'mahajan'
+// }
+// for(let k in q){
+//     console.log(k[q])
+// }
