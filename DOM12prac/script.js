@@ -76,13 +76,6 @@ o.addEventListener('click',function(e){
 
 
 
-
-
-
-
-
-
-
 // o.addEventListener('click', function (e) {
 //     if (e.target.tagName === 'BUTTON') {
 //         if (e.target.className === 'Remove') {
@@ -111,3 +104,20 @@ o.addEventListener('click',function(e){
 //     }
 // })
 
+
+
+
+// let d = [22,33,44,55,88]
+// d.filter(function(e){
+//      return e > 55
+// })
+// console.log(d)
+
+
+let q = {
+    name:'saurabh',
+    surname : 'mahajan'
+}
+for(let k in q){
+    console.log(k[q])
+}
