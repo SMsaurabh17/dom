@@ -25,7 +25,7 @@ console.log(saurabh.__proto__ === person.prototype)
 console.log(sujal.__proto__ === person.prototype)
 
 
-// 
+// adding property to prototype
 person.prototype.display = function(){
     console.log(this.firstname,"" + this.lastname)
 }
