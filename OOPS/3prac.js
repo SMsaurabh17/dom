@@ -44,3 +44,6 @@ console.log(q)
 
 
 
+
+
+let dinesh = Object.create({})
