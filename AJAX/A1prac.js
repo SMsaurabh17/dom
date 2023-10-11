@@ -77,10 +77,31 @@ function add4(){
 
 
 
-let pro = new Promise(function(resolve,reject){
-    let e = 20
-    let f = 20
-    if(e == f){
+// let pro = new Promise(function(resolve,reject){
+//     let e = 20
+//     let f = 20
+//     if(e == f){
+//         resolve('both are equal')
+//     }
+//     else{
+//         reject('both are not equal')
+//     }
+// })
+
+// pro.then(function(str){
+//     console.log(str)
+// },function(str){
+//     console.log(str)
+// })
+
+
+
+// 
+
+let p = new Promise(function(resolve,reject){
+    let s = 55
+    let t = 66
+    if(s == t){
         resolve('both are equal')
     }
     else{
@@ -88,7 +109,7 @@ let pro = new Promise(function(resolve,reject){
     }
 })
 
-pro.then(function(str){
+p.then(function(str){
     console.log(str)
 },function(str){
     console.log(str)
