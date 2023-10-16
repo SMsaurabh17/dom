@@ -1,32 +1,33 @@
 
 
 
+
 // 
 function userCreated(){
     return new Promise(function(resolve,reject){
         setTimeout(function(){
             resolve('user created')
         },3000)
+        
     })
 }
 
-function getId(){
-    return new Promise(function(resolve,reject){
-        setTimeout(function(){
-            resolve('get id')
+function getId() {
+    return new Promise(function (resolve, reject) {
+        setTimeout(function () {
+            resolve('get Id')
         },2000)
+
     })
 }
 
-function getinfo(){
+function getInfo(){
     return new Promise(function(resolve,reject){
-        setTimeout(function(){
-            resolve('get info')
+        setTimeout(function () {
+            resolve('user info')
         },1000)
     })
 }
-
-// 1st way using then and catch function
 
 
 // userCreated()
@@ -37,7 +38,7 @@ function getinfo(){
 
 // .then(function(str){
 //     console.log(str)
-//     return getinfo()
+//     return getInfo()
 // })
 
 // .then(function(str){
@@ -45,27 +46,27 @@ function getinfo(){
 // })
 
 // .catch(function(){
-//     console.log("error")
+//     console.log('reject function not available')
 // })
 
 // .finally(function(){
-//     console.log('i will always run no matter what')
+//     console.log('it always execute no matter what')
 // })
 
 
 
-//2nd way using async function and await user
+// async way
 
 async function user(){
     let a = await userCreated()
     console.log(a)
+
     let b = await getId()
     console.log(b)
-    let c = await getinfo()
+
+    let c = await getInfo()
     console.log(c)
+
 }
 
 user()
-
-
-ssss
