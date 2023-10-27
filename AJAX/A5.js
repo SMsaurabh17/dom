@@ -5,7 +5,7 @@ let click = document.querySelector('button')
 function getUser(pagenumber){
     fetch(`https://reqres.in/api/users?page=${pagenumber}`)             //it always return a Promise
     .then(function(response){
-        return response.json
+        return response.json()
     })
     .then(function(response){
         console.log(response.data)

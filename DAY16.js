@@ -17,7 +17,6 @@ class person{
     }
 }
 
-
 let w = new person('shyam','kumar',26,'python')
 console.log(w)
 
