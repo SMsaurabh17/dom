@@ -20,13 +20,13 @@ function error(){
 }
 
 
-// Promise.all([getUserId(2),getUserId(3),getUserId(4),getUserId(5),getUserId(6)])
-// .then(function(response){
-//     console.log(response)
-// })
-// .catch(function(error){
-//     console.log(error)
-// })
+Promise.all([getUserId(2),getUserId(3),getUserId(4),getUserId(5),getUserId(6)])
+.then(function(response){
+    console.log(response)
+})
+.catch(function(error){
+    console.log(error)
+})
 
 
 
@@ -46,7 +46,7 @@ function error(){
 
 // any
 
-Promise.any([getUserId(12),getUserId(3),getUserId(14),getUserId(15)])
-.then(function(str){
-    console.log(str)
-})
+// Promise.any([getUserId(12),getUserId(3),getUserId(14),getUserId(15)])
+// .then(function(str){
+//     console.log(str)
+// })
